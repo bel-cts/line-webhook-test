@@ -1,6 +1,10 @@
 <?php
-$channelToken = 'ใส่ Channel Access Token ตรงนี้';
-$userId = 'ใส่ User ID ของคนรับ';
+// $channelToken = 'ใส่ Channel Access Token ตรงนี้';
+// $userId = 'ใส่ User ID ของคนรับ';
+
+$channelToken = "78o/tBMTwtYz6e9kaQhbEUALyZq5oJ5hnM4Kj9Eo7IV6PjJ1WuUs38Qdwk9Nn0mEUZAlR4uQntpPMo9WfYrc4EJ5VqkyqwPLlqNaQ/eQO8T+oL8Z5c9NiZSYdzVIb6kr5p3XfPfB04tTWBdxYwRkiQdB04t89/1O/w1cDnyilFU=";  // ใส่ Token จริงของคุณตรงนี้
+$userId = "U5c03588801f02198d250e6b8da6b037d";  // User ID ตัวอย่าง (เปลี่ยนตามจริง)
+
 
 $message = 'Hello from Render PHP';
 
