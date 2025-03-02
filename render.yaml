@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: line-webhook-php
+    env: php
+    buildCommand: ""
+    startCommand: ""
+    envVars:
+      - key: PORT
+        value: 80
