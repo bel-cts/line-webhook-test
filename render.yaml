@@ -1,9 +1,11 @@
 services:
-  - type: web
-    name: line-webhook-php
-    env: php
-    buildCommand: ""
-    startCommand: ""
-    envVars:
-      - key: PORT
-        value: 80
+- type: web
+  name: line-webhook-test
+  env: php
+  plan: free
+  buildCommand: ""
+  startCommand: ""
+  rootDir: .
+  envVars:
+  - key: RENDER_PHP_VERSION
+    value: 8.2
